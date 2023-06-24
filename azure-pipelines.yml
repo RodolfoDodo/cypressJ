@@ -17,5 +17,9 @@ steps:
 
 - script: |
     npm install
-    npx cypress run
   displayName: 'npm install and build'
+
+- script: |
+    npx cypress run --browser chrome --headless
+  displayName: 'teste cypress'
+
