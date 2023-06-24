@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    chmod +x cypress
     npx cypress run
   displayName: 'npm install and build'
